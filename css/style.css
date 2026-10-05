@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+/*
+fundo = #f0eff4;
+fonte = #3d2645;
+destaque = #000000 ;
+detalhe = #da4167;
+Fontes:
+    Poppins (títulos)
+     Inter (texto)
+*/
+body{
+    margin: 0;
+    background-color: #f0eff4;
+    color: #3d2645;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color:#da4167
+    
+}
+strong, em{
+    color: #000000;
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.foto{
+    text-align: center;
+}
+h3{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: initial;
+}
+p{
+    text-align: justify;
+}
+.contato{
+    text-align: center;
+    font-size: 1.125rem;
+}
+.contato a:not(:last-child)::after {
+  content: " || ";
+}
+
+/* Cabeçalho e rodapé */
+header, footer{
+    background-color: #3d2645;
+    color: #f0eff4;
+    padding: 24px;
+}
+header h1, header h2{
+    margin: 0.3em 0;
+}
+header a, footer a{
+    color: #f0eff4;
+}
+footer p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+}
+footer a{
+    display: block;
+    text-align: center;
+}
+
+/* Destaques (#da4167) */
+a:hover, a:focus{
+    color: #000000;
+}
+header a:hover, header a:focus,
+footer a:hover, footer a:focus{
+    color: #000000;
+}
+button[type="submit"]{
+    background-color: #da4167;
+    color: #f0eff4;
+    border: none;
+    padding: 10px 24px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: #000000;
+}
+
+/* Detalhes (#000000) */
+table, th, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px 12px;
+}
+fieldset{
+    border: 1px solid #000000;
+}
+.contato a:not(:last-child)::after{
+    color: #000000;
+}
