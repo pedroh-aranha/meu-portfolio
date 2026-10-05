@@ -89,7 +89,7 @@ footer a{
     text-align: center;
 }
 
-/* Destaques (#da4167) */
+/* Destaques */
 a:hover, a:focus{
     color: #000000;
 }
@@ -110,7 +110,7 @@ button[type="submit"]:hover{
     background-color: #000000;
 }
 
-/* Detalhes (#000000) */
+/* Detalhes  */
 table, th, td{
     border: 1px solid #000000;
     border-collapse: collapse;
